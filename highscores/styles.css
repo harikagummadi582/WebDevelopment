@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.highscores-container {
+    margin-top: 80px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #16213e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highscores-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.highscores-table th, .highscores-table td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.highscores-table th {
+    background-color: #0f3460;
+}
+
+.highscores-table tr:nth-child(even) {
+    background-color: #1f4068;
+}
+@media (max-width: 480px) {
+    .highscores-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .highscores-table {
+        font-size: 14px;
+        overflow-x: auto;
+        display: block; /* Allows scrolling */
+    }
+
+    .highscores-table th, 
+    .highscores-table td {
+        padding: 8px;
+    }
+}

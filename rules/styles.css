@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.rules-container {
+    margin-top: 80px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #16213e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1,h2{
+    color: lightblue;
+    margin: 10px;
+    
+}
+
+ul {
+    text-align: left;
+    padding-left: 40px;
+}
+span{
+    padding:10px;
+}
+
+a {
+    color: rgb(230, 173, 209);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+@media (max-width: 480px) {
+    .rules-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+    span{
+        padding:5px;
+    }
+}
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column; /* Makes the list items stack vertically */
+    align-items: flex-start; /* Aligns the items to the left */
+}
+
+ol li {
+    margin-left: 20px; /* Optional: Adjust space between the numbers and the text */
+}
+

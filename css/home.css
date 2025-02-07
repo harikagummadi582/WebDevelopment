@@ -1,0 +1,51 @@
+ /*Main content*/
+main{
+    margin-top:80px;
+    padding:20px;
+    text-align:center;
+   
+ }
+
+ .home{
+    color:white; /* Ensures text is visible on the background  */
+    padding: 100px 20px; /* padding to have spacing around the text*/
+    height: 600px; /* height of the home section*/
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; /* centers text vertically */
+    align-items:center; /* centers text horizontally */
+ }
+
+ .home h2{
+    font-size:50px;
+    margin-bottom: 10px;
+    color:white;
+ }
+
+ .home p{
+    font-size: 20px;
+    color:white ;
+    margin-bottom: 20px;
+ }
+ @media (max-width: 480px) {
+    .home {
+        padding: 50px 15px; 
+        height: auto;
+    }
+
+    .home h2 {
+        font-size: 28px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+}
+.logo {
+    width: 120px;  /* Adjust size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Spacing from text */
+    vertical-align: middle; /* Aligns with text */
+    
+}
