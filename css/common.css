@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #1a1a2e;
     color: white;
     text-align: center;
@@ -29,7 +29,8 @@ body{
     display: flex;
     margin-right: 20px;
     padding:0;
-    margin-top: 10px;
+    margin-top: 15px;
+    gap: 15px;
 }
 
 .nav-links li {
@@ -59,11 +60,32 @@ body{
     color: white;
     font-size: 24px;
     margin-left: 20px;
+    
 }
 .nav-links li a:hover{
     transform:scale(1.1);
     transition:transform 0.2s ease-in-out;
  }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a2e; /* Dark navy background */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff4b5c; /* Red scrollbar */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff1e3c; /* Darker red when hovered */
+}
+
 
  @media (max-width: 480px) {
     .navbar {
@@ -84,7 +106,7 @@ body{
     .nav-links {
         display: flex !important;
         flex-direction: row !important;
-        gap: 5px !important;
+        gap: 10px !important;
         margin-left: auto !important;
     }
 

@@ -9,15 +9,18 @@ body {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #16213e;
+    background: linear-gradient(145deg, #1b4c81, #16213e);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1,h2{
     color: lightblue;
-    margin: 10px;
-    
+    margin: 15px 0;
+    font-weight: bold;
+}
+.rules-container h4{
+    padding-left:15px;
 }
 
 ul {
@@ -26,6 +29,16 @@ ul {
 }
 span{
     padding:10px;
+}
+.credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.credits span {
+    margin-bottom: 0px;
 }
 
 a {
@@ -50,19 +63,22 @@ a:hover {
         font-size: 20px;
     }
 
-    ul {
-        padding-left: 20px;
+    ul, ol {
+        padding-left: 15px;
     }
     span{
         padding:5px;
     }
+    .credits{
+        text-align:center;
+    }
 }
 ol {
     list-style-position: inside;
-    padding-left: 0;
     display: flex;
     flex-direction: column; /* Makes the list items stack vertically */
     align-items: flex-start; /* Aligns the items to the left */
+    padding-left: 0px;
 }
 
 ol li {

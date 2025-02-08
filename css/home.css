@@ -1,12 +1,22 @@
- /*Main content*/
+/*Main content*/
 main{
     margin-top:80px;
     padding:20px;
     text-align:center;
    
- }
+}
+ .game-title svg {
+    color: white; 
+    stroke:white;
+    fill:none;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 8px;
+    display: inline-block; /* Ensures it doesn't disappear */
+}
 
- .home{
+.home{
     color:white; /* Ensures text is visible on the background  */
     padding: 100px 20px; /* padding to have spacing around the text*/
     height: 600px; /* height of the home section*/
@@ -17,17 +27,29 @@ main{
     align-items:center; /* centers text horizontally */
  }
 
- .home h2{
+.home h2{
     font-size:50px;
     margin-bottom: 10px;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adds space between text and logo */
  }
 
- .home p{
+.home p{
     font-size: 20px;
     color:white ;
     margin-bottom: 20px;
  }
+ p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
  @media (max-width: 480px) {
     .home {
         padding: 50px 15px; 
@@ -45,7 +67,13 @@ main{
 .logo {
     width: 120px;  /* Adjust size */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 5px; /* Spacing from text */
     vertical-align: middle; /* Aligns with text */
-    
+    margin:0; 
 }
+.section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
