@@ -126,12 +126,5 @@ body{
         font-size: 14px !important;
         padding: 5px 8px !important;
     }
-    .game-title svg {
-        width: 18px;
-        height: 18px;
-        stroke: white;
-        fill: none;
-        vertical-align: middle; /* Ensures inline alignment */
-    }
     
 }
