@@ -1,13 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .highscores-container {
-    margin-top: 80px;
     padding: 20px;
     max-width: 800px;
     margin-left: auto;

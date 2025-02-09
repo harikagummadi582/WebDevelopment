@@ -4,7 +4,7 @@ This project is a web-based implementation of the classic Battleship game, built
 
 ## Challenges
 **What was the most challenging piece of this assignment?**
-The most challenging aspect was likely handling the responsive design for mobile devices, especially ensuring that the game's layout adapts well to smaller screens.
+The most challenging aspect was likely handling the responsive design for mobile devices, especially ensuring that the game's layout adapts well to smaller screens. To choose proper colour combinations and fonts to make it appealing.
 
 **Did you find it easy or challenging to work with HTML and CSS?**
 Working with HTML and CSS was relatively straightforward. CSS styling, especially the positioning and grid layouts, provided some challenge when trying to make the layout responsive. Flexbox and Grid were particularly useful.
@@ -19,11 +19,11 @@ I used media queries to adjust layout changes such as grid size and navbar forma
 
 ## Design Considerations
 **What did you take into account when you developed the design of your website? Is there anything that you’re particularly proud of?**
-I focused on making the website visually engaging and easy to navigate. I’m particularly proud of the layout for the game boards and the smooth transition effects on hover. I also liked the mobile responsiveness, which adapts the layout to small screens effectively.
+I focused on making the website visually engaging and easy to navigate. I’m particularly proud of the layout for the game boards and the smooth transition effects on hover. I also liked the mobile responsiveness, which adapts the layout to small screens effectively. I am also proud of svg icon and title picture i incorporated into the website.
 
 ## Future Features
 **Given more time or resources, what additional features would you add to your site in the future?**
-If I had more time, I would consider adding a real-time multiplayer feature for the game, implementing more detailed animations, and adding sound effects to enhance user experience. And to add more features to engage the users and few more su=ound and visual effects wherever necessary. Chatbot as well.
+If I had more time, I would consider adding a real-time multiplayer feature for the game, implementing more detailed animations, and adding sound effects to enhance user experience. And to add more features to engage the users and few more sound and visual effects wherever necessary. Chatbot as well.
 
 ## Time Spent
 **How many hours did you spend on this assignment?**
@@ -35,9 +35,9 @@ I assumed that the game would be a single-player interface for visualizing the B
 
 ## Resources
 **If you used code or design from somewhere online, please mention it here.**
-I used [mention any resources like a CSS framework, Google Fonts, or tutorials]. Additionally, the styling for the navbar and game boards was influenced by best practices for grid layouts and mobile-first design.
+I made the design on my own including the coour combination choices and the layout of the whole website. Additionally, the styling for the navbar and game boards was influenced by best practices for grid layouts and mobile-first design.
 
 ## Fonts and Icons
 **Fonts or Icons Library:**
-I did not use any of the fonts or icons externally
+I used google fonts poppins. Used an online picture of battlship as a logo for the game. I also incorporated svg icon of a downward arrow.
 
